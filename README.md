@@ -2,6 +2,7 @@
 Extension on the agent based model of Weighted Balance Theory by Schweighofer, Schweitzer, and Garcia. 
 
 For a Simple Overview, Section 1.1 A-C
+
 1.1a: Purpose
 	The purpose of this model is to simulate the opinion dynamics of different types of network using the Weighted Balanced Model. More specifically, this model simulates how individuals change their opinion based upon their neighbors opinions and the equanimity their neighbor’s have. The individuals can only access other neighbors to update their opinion that are a distance of 1 from them in a certain type of network. Depending on the position of the individual in the network, they may update their opinion if and only if they are below a certain threshold in terms of their Burt’s constraint value, that is to say, individuals can only update their opinion if they fall below a threshold, otherwise their opinions remain the same. An aggregate score of the polarization, the alignment, and the extremeness of all individuals in the network is taken at each time step. These scores allow for the simulation to explore the followings impact on opinion dynamics : 
 1) The type of the network 
